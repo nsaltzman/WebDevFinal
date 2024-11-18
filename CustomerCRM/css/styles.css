@@ -1,0 +1,58 @@
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 0;
+        }
+        .top-bar {
+            background-color: cornflowerblue;
+            color: white;
+            padding: 10px;
+            font-size: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo{
+            margin-right: 20px;
+        }
+        a {
+            padding:20px
+        }
+
+        .top-bar-links{
+            background-color: lightgrey;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .top-bar a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: ghostwhite;
+        }
+        .status-prospect {
+            color: green;
+        }
+        .status-customer {
+            color: blue;
+        }
